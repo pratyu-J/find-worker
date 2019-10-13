@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+
+
+    <TextView
+        android:id="@+id/listname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="28sp" />
+    <TextView
+        android:id="@+id/listcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city"
+        android:layout_below="@id/listname"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/listspec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="specialisation"
+        android:layout_below="@id/listcity"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/listemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:layout_below="@id/listspec"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/listphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:layout_below="@id/listemail"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/listsex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sex"
+        android:layout_below="@id/listphone"
+        android:textSize="24sp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.v7.widget.LinearLayoutCompat>

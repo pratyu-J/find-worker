@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="address">address</string>
+    <string name="hirer">hirer</string>
+    <string name="phone_number">phone Number</string>
+    <string name="name_of_org">name of org</string>
+    <string name="register">register</string>
+</resources>
